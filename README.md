@@ -40,5 +40,9 @@ Contact Page
 ### Testing
 Unit and Integration tests 01/12/21
 
+## HTML Validation
+
+
 ## Challenges
 The main challenge with completing this assignment was simply coming familiar with the syntax and searching for the correct Bootstrap syntax in order to impliment required design elements.  The overall activity was not too difficult.
+
