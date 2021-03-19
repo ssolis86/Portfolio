@@ -1,10 +1,51 @@
 
+.htmlItem {
+    background-color: royalblue;
+}
+.htmlItemContact {
+    background-image: url(images/contact_wallpaper.png);
+    background-color: royalblue;
+}
+.navItem {
+    background-color: midnightblue;
+
+}
+.bodyItem {
+    background-color: royalblue;
+}
+.nameItem {
+    font-weight: 600;
+    color: lavenderblush;
+    line-height: 1.2;
+}
+.bodyItemContact {
+    background-image: ('images/contact_wallpaper.png');
+}
+.containerItem {
+    background-color: royalblue;
+}
+.container-bg {
+    background-color: royalblue;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.div-padding {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.footerItem {
+    background-color: midnightblue;
+}
 .footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:whitesmoke;
-    color:black;
+    color: white;
     text-align: center;
 }
