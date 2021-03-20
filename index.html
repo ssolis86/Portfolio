@@ -21,11 +21,12 @@
   >
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="bodyItem text-light">
+<body class="bodyItem">
   
   <nav class="navbar navbar-expand-lg navItem">
     <div class="container-fluid">
-     <a class="navbar-brand text-light" href="index.html">Stephen Solis</a>
+      <img src="assets/me_copy.png" width="60" height="60" alt="Picture of Me" class="rounded-circle mx-auto d-block img-fluid">
+     <a class="navbar-brand text-light navName" href="index.html">Stephen Solis</a>
       <button class="navbar-toggler" 
       type="button" 
       data-bs-toggle="collapse" 
@@ -37,14 +38,16 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+            <li class="nav-item navButton">
+              <a class="btn btn-outline-light" aria-current="page" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-light" aria-current="page" href="portfolio.html">Portfolio</a>
+                
+                <li class="nav-item navButton">
+                  <a class="btn btn-outline-light" aria-current="page" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="contact.html">Contact</a>
+                
+                <li class="nav-item navButton">
+                  <a class="btn btn-outline-light" aria-current="page" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,23 +55,17 @@
   </nav>
         </div>
         <div class="text-center container-bg">
-          <img src="assets/me_copy.png" alt="Picture of Me" class="rounded-3 mx-auto d-block img-fluid">
+          
           <div class="div-padding">
-            <h1 class="nameItem big-heading">Stephen Solis</h1>
-          </div>
-          <div>
-            University of Texas Full Stack Developer Student
+            <h1 class="nameItem rounded-3 col-md-12 big-heading">Full Stack Developer</h1>
           </div>
         </div>
 
-          <div class="containerItem rounded-3 container">
+          <div class="containerItem rounded-3 col-md-6 container">
               <div class="row">
                   <div class="text-center col-md-12">
-                      <p>
-                        Recent graduate of Texas A&M University - San Antonio with a Bachelor's in Computer Information Systems. 
-                        My interests are in software development and data analytics.
-                      </p>
-                        <h4>Coursework Highlights</h4>
+                      
+                        <!-- <h4>Coursework Highlights</h4>
                           <p>* Predicted malware vulnerabilities for a machine by cleaning and optimizing raw data for a custom model to analyze. 
                             My responsibilities included writing custom python scripts to both parse and feed data.
                           </p>
@@ -79,7 +76,7 @@
                             <p>* Sent encrypted data to a custom remote server using asymmetric cryptography to replicate a 
                             custom public key infrastructure (pki). My responsibilities included creating a public and private key 
                             and sending it to a recipient to allow us access to a remote server.
-                          </p>
+                          </p> -->
                     </div> 
                 </div>
             </div>
@@ -87,8 +84,7 @@
                           
 <!-- Footer -->
 <footer class="fixed-bottom footerItem text-center text-lg-start">
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)"> © 2021 Copyright:
-  <a class="text-light" href="index.html">Stephen Solis</a>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)"> © 2021 Copyright
   </div>
 </footer>
 

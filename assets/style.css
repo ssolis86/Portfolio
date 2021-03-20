@@ -1,34 +1,58 @@
 
-.htmlItem {
-    background-color: royalblue;
-}
-.htmlItemContact {
-    background-image: url(images/contact_wallpaper.png);
-    background-color: royalblue;
-}
 .navItem {
-    background-color: midnightblue;
+    background-color: rgb(125,125,125);
 
 }
 .bodyItem {
-    background-color: royalblue;
+    background-image:url("../images/sanAntonio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
 }
-.nameItem {
-    font-weight: 600;
-    color: lavenderblush;
-    line-height: 1.2;
+
+.navName {
+    padding-left: 10px;
+    font-weight: 200;
+    font-size: 40px;
 }
-.bodyItemContact {
-    background-image: ('images/contact_wallpaper.png');
-}
-.containerItem {
-    background-color: royalblue;
+.navButton {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .container-bg {
-    background-color: royalblue;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    padding-top: 20px;
+}
+.introText {
+    font-size: 20px;
+}
+.nameItem {
+	display: inline;
+	position: relative;
+	font: 50px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
+}
+
+.nameItem:after {
+	content: "Full Stack Developer Student";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   
+}
+.nameItem {
+    /* background-color: whitesmoke; */
+    /* filter: opacity(70%); */
+    font-weight: 600;
+    line-height: 1.2;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.containerItem {
+    background-color: whitesmoke;
+    filter: opacity(70%);
 }
 
 .div-padding {
@@ -39,7 +63,7 @@
 }
 
 .footerItem {
-    background-color: midnightblue;
+    background-color:rgb(128,128,128);
 }
 .footer{
     position: fixed;
