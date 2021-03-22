@@ -20,13 +20,15 @@
             crossorigin="anonymous"
         >
         <link rel="stylesheet" href="assets/style.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap">
     </head>
-    <body class="bodyItem">
+    <body class="bodyItemContact">
        
         <nav class="navbar navbar-expand-lg navItem">
             <div class="container-fluid">
-              <a class="navbar-brand text-light" href="#">Stephen Solis</a>
+              <img src="assets/me_copy.png" width="60" height="60" alt="Picture of Me" class="rounded-circle mx-auto d-block img-fluid">
+                <a class="navbar-brand text-light navName" href="index.html">Stephen Solis</a>
               <button class="navbar-toggler" 
               type="button" 
               data-bs-toggle="collapse" 
@@ -38,14 +40,14 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                  <li class="nav-item navButton">
+                    <a class="btn text-light" aria-current="page" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-light" aria-current="page" href="portfolio.html">Portfolio</a>
+                <li class="nav-item navButton">
+                  <a class="btn text-light" aria-current="page" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="contact.html">Contact</a>
+                <li class="nav-item navButton">
+                  <a class="btn text-light" aria-current="page" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -57,19 +59,19 @@
             <div class="row">
               <div class="text-center col-md-12">
                 <form class="text-center">
-                  <h2>Contact Form</h2>
-                  <div class="form-group">
+                  <h1 class="nameItemContact">Contact Form</h1>
+                  <div class="inputContainer form-group col-md-6">
                     <label for="exampleFormControlInput1">Name</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                   </div>
-                  <div class="form-group">
+                  <div class="inputContainer form-group col-md-6">
                     <label for="exampleFormControlInput1">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                   </div>
-                  <div class="form-group">
+                  <div class="inputContainer form-group col-md-6">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <button type="button" class="btn btn-dark">Submit</button>
                   </div>
                 </form>
               </div>
@@ -78,9 +80,11 @@
 
           <footer class="fixed-bottom footerItem text-center text-lg-start">
             <div class="text-center">
-              <a class="text-light" href="tel: 2107487482">tel: 210-748-7482</a>
+              <a class="text-dark" href="tel: 2107487482"><span>&#9742;</span></a>
+              <a class="text-dark" href="mailto:ssolis8619@gmail.com">Email</a>
+              <a href="www.linkedin.com/in/stephen-solis-8040b026" class="fa fa-linkedin"></a></a>
             </div>
-            <div class="text-center p-3 text-light">© 2021 Copyright:<a class="text-light" href="index.html"> Stephen Solis</a></div>
+            <div class="text-center p-3 text-dark">© 2021 Copyright</div>
           </footer>
     </body>
 
